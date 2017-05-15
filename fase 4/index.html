@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Codificação da pagina, padrão Brasileiro: utf-8-->
+	<meta charset="utf-8">
+
+	<!-- Titulo da pagina -->
+	<title>Portfólio</title>
+
+	<!-- Como adicionar um arquivo do tipo css a pagina html -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<!-- Como adicionar o Bootstrap a uma pagina -->	
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+
+	<!-- Como adicionar jQuery a uma pagina -->
+	<script type="text/javascript" src="javascript/jquery-3.2.1.js"></script>
+</head>
+<body>
+
+	<div class="jumbotron">
+		<div class="container">
+			<h1>Ótima escolha!</h1>
+			<p>Use a nossa calculador simples.</p>
+		</div>
+
+
+		<div class="container">
+
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h2 class="panel-title">Calculadora Simples</h2>
+				</div>
+				
+				<div class="panel-body">					
+					<input type="number" max="100" step="1" class="form-control" placeholder="numero 1" id="numero1">
+					
+					<input type="number" max="100" step="1" class="form-control" placeholder="numero 2" id="numero2">
+
+					<input type="button" onclick="somar()"  class="btn btn-primary btn-block" value="Fazer Soma!">	
+
+					<input type="number" max="100" step="5" class="form-control" placeholder="resultado" id="resultado">			
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript">
+		function somar(){
+			console.log("A função somar() foi chamada");
+			numero1 = parseInt($("#numero1").val());
+			numero2 = parseInt($("#numero2").val());
+			soma = numero1 + numero2;
+			$("#resultado").val(soma);
+		}
+		
+	</script>
+
+</body>
+</html>
