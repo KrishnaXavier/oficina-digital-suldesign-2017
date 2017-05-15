@@ -1,0 +1,42 @@
+/* menu */
+.menu .logo{
+	height: 100%;
+}
+
+a:hover{	
+	color: #16FFBF !important;
+}
+
+.elemento-menu{
+	color: #FFFFFF !important;
+}
+
+/* home */
+.picture{
+	width: 100%;
+	margin-top: -25px;
+	opacity: 0.5; /* transparencia */
+	float: left;
+}
+
+
+.container-frase{
+	width: 100%;
+	height: 100%;	
+	bottom: 0;
+	right: 0;
+}
+
+.container-frase .frase-destaque{	
+	font-size: 3em;
+	color: #16FFBF;	
+	position: absolute;
+	left: 0;
+	top: 30%;
+	width: 100%;
+	text-align: center;			
+}
+
+.container-frase .frase-destaque .ola{
+	font-size: 4em;
+}
