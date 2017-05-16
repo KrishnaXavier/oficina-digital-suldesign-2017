@@ -1,8 +1,14 @@
-/* menu */
-.menu .logo{
-	height: 100%;
+*{
+	box-sizing: border-box;
+	font-family: proximathin;
+}
+@font-face {
+	font-family: proximathin;
+	src: url('font/proxima thin/Proxima Nova Thin.otf');
 }
 
+
+/* sobreposições do bootstrap */
 a:hover{	
 	color: #16FFBF !important;
 }
@@ -11,12 +17,41 @@ a:hover{
 	color: #FFFFFF !important;
 }
 
-/* home */
+.row{
+	margin-right: 0 !important; 
+}
+
+/* body */
+.secao{
+	width: 100%;
+	margin-top: 5%;
+	text-align: center;
+}
+
+.titulo{
+	font-size: 3em;
+}
+
+.sub-titulo{
+	font-size: 2em;
+
+}
+
+.divisao{
+	width: 10%;
+	size: 20px;
+}
+
+/* MENU */
+.menu .logo{
+	height: 100%;
+}
+
+/* HOME */
 .picture{
 	width: 100%;
 	margin-top: -25px;
-	opacity: 0.5; /* transparencia */
-	float: left;
+	opacity: 0.5; /* transparencia */	
 }
 
 
@@ -24,7 +59,7 @@ a:hover{
 	width: 100%;
 	height: 100%;	
 	bottom: 0;
-	right: 0;
+	right: 0;	
 }
 
 .container-frase .frase-destaque{	
@@ -32,11 +67,27 @@ a:hover{
 	color: #16FFBF;	
 	position: absolute;
 	left: 0;
-	top: 30%;
+	top: 20%;
 	width: 100%;
 	text-align: center;			
 }
 
 .container-frase .frase-destaque .ola{
 	font-size: 4em;
+}
+
+/* SERVIÇOS */
+.servicos .titulo-servico{
+	font-size: 1.5em;
+	font-weight: bold;
+	color: #423f4C;
+}
+
+.servicos .descricao-servico{
+	font-size: 1.25em;
+	color: #9595C6;
+}
+
+.servicos .img-servico{
+	width: 25%;
 }
