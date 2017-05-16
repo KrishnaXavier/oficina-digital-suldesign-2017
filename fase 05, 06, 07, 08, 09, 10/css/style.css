@@ -2,6 +2,7 @@
 	box-sizing: border-box;
 	font-family: proximathin;
 }
+
 @font-face {
 	font-family: proximathin;
 	src: url('font/proxima thin/Proxima Nova Thin.otf');
@@ -53,7 +54,6 @@ a:hover{
 	margin-top: -25px;
 	opacity: 0.5; /* transparencia */	
 }
-
 
 .container-frase{
 	width: 100%;
@@ -160,4 +160,31 @@ a:hover{
 .sobre .porcentagem-ferramenta{
 	text-align: right;
 	font-size: 1.5em;
+}
+
+/* CONTATO */
+.contato{
+	background-color: #FBFBFB;
+	padding-top: 5%;
+}
+
+.contato .titulo-contato{
+	font-size: 1.5em;
+	margin: 5%;
+}
+
+.contato .email, .telefone{
+	font-size: 2em;
+}
+
+.contato .img{
+	width: 10%;
+}
+
+/* FINAL */
+.final-pagina{
+	margin-top: 5%;
+	width: 100%;
+	background: #000;
+	height: 100px;
 }
