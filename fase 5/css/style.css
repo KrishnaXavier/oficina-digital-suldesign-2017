@@ -28,7 +28,7 @@ a:hover{
 	text-align: center;
 }
 
-.titulo{
+.titulo{	
 	font-size: 3em;
 }
 
@@ -99,6 +99,8 @@ a:hover{
 /* PORTFÓLIO */
 
 .portfolio{
+	background-color: #FBFBFB;
+	padding-top: 5%;
 
 }
 
@@ -107,5 +109,55 @@ a:hover{
 }
 
 .portfolio .linha-portfolio{
-	margin-bottom: 2%;
+	margin-top: 2%;
+}
+
+/* SOBRE */
+.sobre{
+
+}
+
+.sobre .img-sobre{
+	width: 100%;
+}
+
+.sobre .titulo-sobre{
+	font-size: 3em;
+	width: bold;
+	text-align: left;
+}
+
+.sobre .descricao-sobre{
+	font-size: 1.5em;
+	text-align: left;
+}
+
+.sobre .sobre-mim{
+	margin-top: 5%;
+}
+
+
+.sobre .slot-ferramenta{
+	padding-left: 5%;
+	padding-right: 5%;
+}
+.sobre .barra-progresso{
+	width: 100%;
+	/*color: #16FFBF !important;	
+	background: #FFFFFF !important;*/
+}
+
+.sobre progress {
+	color: #16FFBF !important;
+}
+
+
+.sobre .titulo-ferramenta{
+	text-align: left;
+	font-size: 2em;
+}
+
+.sobre .porcentagem-ferramenta{
+	text-align: right;
+	font-size: 1.5em;
 }
