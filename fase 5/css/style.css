@@ -91,3 +91,21 @@ a:hover{
 .servicos .img-servico{
 	width: 25%;
 }
+
+.servicos .slot-servico{
+	width: 100%;
+}
+
+/* PORTFÓLIO */
+
+.portfolio{
+
+}
+
+.portfolio .img-portfolio{
+	width: 100%;
+}
+
+.portfolio .linha-portfolio{
+	margin-bottom: 2%;
+}
