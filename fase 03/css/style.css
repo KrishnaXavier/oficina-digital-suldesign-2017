@@ -1,28 +1,22 @@
 .vermelho{
-	color: #FF0000;
+	color: #FF0000; /* red */
 }
-
 .azul{
 	color: #0000FF;
 }
-
 .grande{	
 	font-size: 5em;	
 }
-
 .medio{
 	font-size: 2em;
 }
-
 .centro{
 	text-align: center;
 }
-
 .verde-amarelo{
 	color: #00FF00;
 	background-color: #FFFF00;
 }
-
 .fundo-vermelho{
 	background-color: #FF0000;
 }

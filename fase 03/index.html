@@ -8,33 +8,32 @@
 	<title>Portfólio</title>
 
 	<!--Como adicionar um arquivo do tipo css a pagina html -->
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">	
+
 </head>
 <body>
 
-	<div class="vermelho">texto vermelhor</div>
+	<div class="vermelho">texto vermelhor</div>	
 	<div class="azul">texto azul</div>
 	<div class="grande" id="texto">texto grande</div>
 	<div class="medio">texto medio</div>
 	<div class="centro">texto centralizado</div>
 	<div class="verde-amarelo">texto verde, fundo amarelo</div>
-	<div class="azul medio centro fundo-vermelho">texto com varias classes</div>
+	<div class="azul medio centro fundo-vermelho">
+	texto com varias classes
+	</div>
 	<div class="vermelho azul medio">por que azul?</div>
-
 
 	<button onclick="mudarCor()" class="btn medio azul">Mudar cor texto grande</button>
 
 	<div class="centro medio">
 		<h3>Somar 2 numeros:</h3>
-	
 		<div>
 			<input type="number" id="numero1" placeholder="numero 1" />
 		</div>
-		
 		<div>
 			<input type="number" id="numero2" placeholder="numero 2" />
 		</div>
-		
 		<div>
 			<input type="number" id="resultado" placeholder="resultado" />
 		</div>
@@ -43,18 +42,9 @@
 	</div>
 
 
-	<script type="text/javascript">
-		window.onload=function(){
-			console.log("A pagina foi carregada");
 
-		}
 
-		function mudarCor(){
-			console.log("A função mudarCor foi chamada");
-			variavelTexto = document.getElementById("texto");
-			variavelTexto.style.color = "#20A020";
-		}
-
+	<script type="text/javascript">	
 		function somarNumeros(){
 			console.log("A função somarNumeros foi chamada");
 			numero1 = document.getElementById("numero1").value;
