@@ -4,6 +4,11 @@
 <div>Local: <a href="http://www.ucpel.tche.br/portal/">UCPel: Universidade Católica de Pelotas</a></div>
 <div>Cidade/Estado: Pelotas/RS</div>
 
+# Oficina criada para alunos do Design do IFSul: Instituto Federal Sul-rio-grandense Câmpus Pelotas - IFSul
+<div>Evento: <a href="https://m.facebook.com/events/794670414028705?tsid=0.30729838451435143&source=result">Trajetórias e Perspectivas | VI Seminário de Design 2017</a></div>
+<div>Local: <a href="http://www.pelotas.ifsul.edu.br/">UCPel: Universidade Católica de Pelotas</a></div>
+<div>Cidade/Estado: Pelotas/RS</div>
+
 <h1>Proposta da Oficina</h1>
 
 <ul>
